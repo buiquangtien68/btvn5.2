@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    width: 100%;
+    height: 720px;
+    background-color: #f0f2f5;
+    position: relative;
+}
+.container{
+    width: 980px;
+    height: 536px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+/* logo part */
+.logo-part{
+    width: 60%;
+    height: 266px;
+}
+.logo-image{
+    width: 100%;
+    height: 182px;
+    position: relative;
+}
+.logo-image img{
+    width: 301px;
+    height: 106px;
+    object-fit: cover;
+    position: absolute;
+    top:50%;
+    object-fit: cover;
+}
+.logo-info{
+    width: 90%;
+    height: 84px;
+}
+.logo-info p{
+    font-size: 28px;
+}
+/* card part */
+.card-part{
+    width: 40%;
+    height: 496px;
+    background-color: #f0f2f5;
+    position: relative;
+}
+.card-container{
+    width: 100%;
+    height: 500px;
+    /* background-color: gray; */
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.card{
+    width: 100%;
+    height: 350px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: none;
+    overflow: hidden;
+    position: relative;
+    padding-top: 10px;
+    -webkit-box-shadow: 0px 1px 5px 1px #878787; 
+    box-shadow: 0px 1px 5px 1px #878787;
+}
+/* input */
+.input{
+    width: 100%;
+    height: 129px
+}
+.input .account{
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+.input .password{
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+.input input{
+    width: 364px;
+    height: 80%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 14px 16px;
+    border-style:double;
+    border-color: #f0f2f5;
+}
+/* login */
+.login{
+    width: 100%;
+    height: 73px;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+.login .login-button{
+    width: 100%;
+    height: 54px; 
+    position: relative;
+}
+.login-button button{
+    background-color: #1877F2;
+    color: #ffffff;
+    width: 364px;
+    height: 48px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    padding: 0 16px;
+    border-radius: 6px;
+    border: none;
+}
+.login .login-support{
+    width: 100%;
+    height: 19px;
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 12px;
+}
+.login-support a{
+    text-decoration: none;
+    color: #1877F2;
+    font-size: 14px;
+}
+/* sign up */
+.signup{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 10px;
+    padding-top: 10px;
+}
+.signup .hr{
+    width: 100%;
+    position: relative;
+}
+.signup hr{
+   background-color:#e3e9f1;
+   width: 90%;
+   position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   border: 1px solid #dadde1
+}
+.signup-button{
+    width: 100%;
+    height: 54px;
+    background-color: #ffffff;
+    position: relative;
+    margin-top: 22px;
+}
+.signup-button button{
+    width: 179px;
+    height: 48px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #42b72a;
+    color: #ffffff;
+    padding: 0 16px;
+    font-size: 17px;
+    border-radius: 6px;
+    border: none;
+}
+/* card footer */
+.card-footer{
+    width: 100%;
+    height: 20%;
+    position: relative;
+}
+.card-footer p{
+    text-align: center;
+    position: absolute;
+    top:20px;
+    font-size: 14px;
+}
+/* footer */
+.footer{
+    width: 100%;
+    height: 158px;
+    background-color: #ffffff;
+    position: relative;
+    margin-top: 10px;
+}
+.footer-info{
+    width: 980px;
+    height: 137px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background-color: #42b72a; */
+}
+.language{
+    width: 100%;
+    height:20%;
+}
+.footer-info ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-info ul li{
+    list-style: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #8a8d91;
+}
+.link{
+    width: 100%;
+    height: 80%;
+    margin-top: 10px;
+}
+.link p{
+    font-size: 12px;
+    color: #8a8d91;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
